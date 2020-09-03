@@ -1,0 +1,65 @@
+table,
+thead,
+th, 
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: blue;
+}
+
+tbody tr:nth-child(even) {
+  background-color: green;
+}
+
+thead {
+  color: greenyellow;
+  background-color: black;
+}
+
+tbody {
+  color: white;
+  background-color: grey;
+}
+
+table {
+  width: 100%;
+}
+
+tfoot {
+  padding: 0;
+  border: none;
+}
+
+section {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: cornsilk;
+  height: 250px;
+}
+
+footer {
+  background-color: cadetblue;
+}
+
+@media (max-width: 600px) {
+  
+}
