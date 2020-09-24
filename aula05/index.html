@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="form1" action="" onsubmit="return false;" >
+    <h2>Divisivel?</h1>
+    
+    <label for="div-num-1">Valor 1</label>
+    <input type="text" name="div-num-1" id="div-num-1">
+
+    <label for="div-num-2">Valor 2</label>
+    <input type="text" name="div-num-2" id="div-num-2">
+  
+    <button onclick="verificar()">Verificar</button>
+
+    <label for="div-resultado">Resultado</label>
+    <input type="text" name="div-resultado" id="div-resultado">
+
+  </form> 
+
+  <form id="form2" name="op" action="" onsubmit="return false;">
+    <h2>Calculadora</h1>
+
+    <label for="calc-num-1">Valor 1</label>
+    <input type="text" name="calc-num-1" id="calc-num-1">
+
+    <label for="calc-num-2">Valor 2</label>
+    <input type="text" name="calc-num-2" id="calc-num-2">
+
+    <label for="op">Operacao</label>
+    <select name="op" id="op">
+      <option value="somar">somar</option>
+      <option value="subtrair">subtrair</option>
+      <option value="multiplicar">multiplicar</option>
+      <option value="dividir">dividir</option>
+    </select>
+    
+    <button onclick="calcular()">Calcular</button>
+
+    <label for="calc-resultado">Resultado</label>
+    <input type="text" name="calc-resultado" id="calc-resultado">
+  
+  </form>
+
+
+  <script src="script.js">
+  </script>
+</body>
+</html>

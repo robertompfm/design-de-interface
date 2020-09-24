@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+form {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  justify-content: space-evenly;
+}
+
+#form1 {
+  height: 20rem;
+  background-color: lightcoral;
+}
+
+#form2 {
+  height: 25rem;
+  background-color: lightblue;
+}
+
+button {
+  background-color: #ccc; 
+  color: black;
+  height: 2rem;
+}
