@@ -38,7 +38,7 @@
       <form class="form" onsubmit="return false">
         <input id="q2-emp" type="text" placeholder="Funcionário" />
         <input 
-        id="q2-sal" type="number" placeholder="Salário" 
+          id="q2-sal" type="number" placeholder="Salário" 
           step="0.01"
         />
         <button id="q2-btn">Calcular</button>
@@ -50,58 +50,72 @@
     <section class="q q3">
       <h3>A (?) B = C</h3>
       <form class="form" onsubmit="return false">
-        <input id="q3-a" type="number" placeholder="A" />
-        <input id="q3-b" type="number" placeholder="B" />
+        <input id="q3-a" type="number" placeholder="A" step="0.0001" />
+        <input id="q3-b" type="number" placeholder="B" step="0.0001" />
         <button id="q3-btn">Calcular</button>
+        <p id="q3-f"></p>
         <input id="q3-c" type="text" placeholder="C" disabled />
-        <p id="q3-f">Feedback</p>  
       </form>
     </section>
 
     <section class="q q4">
       <h3>Preço</h3>
       <form class="form" onsubmit="return false">
-        <input type="number" placeholder="Preço" />
-        <select>
+        <input id="q4-p" type="number" placeholder="Preço" />
+        <select id="q4-s">
           <option value="0" selected disabled hidden>Número de parcelas</option>
           <option value="1">À vista</option>
           <option value="3">3</option>
           <option value="5">5</option>
         </select>
         <button id="q4-btn">Calcular</button>
-        <input type="text" placeholder="Prestação mensal" />
-        <input type="text" placeholder="Total" />
-        <p id="q4-f">Feedback</p> 
+        <input id="q4-i" type="text" placeholder="Prestação mensal" />
+        <input id="q4-t" type="text" placeholder="Total" />
+        <p id="q4-f"></p> 
       </form>
     </section>
 
     <section class="q q5">
       <h3>Notas</h3>
       <form class="form" onsubmit="return false">
-        <input type="text" placeholder="Nome" /> 
-        <input type="number" placeholder="Nota 01" step="0.0001" />
-        <input type="number" placeholder="Nota 02" step="0.0001" />
-        <input type="number" placeholder="Nota 03" step="0.0001" />
-        <button  id="q5-btn">Calcular</button>
-        <input type="text" placeholder="Média final" />
-        <p id="q5-f">Feedback</p> 
+        <input 
+          id="q5-name" type="text" placeholder="Nome"
+        /> 
+        <input 
+          id="q5-grade1" type="number" placeholder="Nota 01" step="0.0001" 
+        />
+        <input 
+          id="q5-grade2" type="number" placeholder="Nota 02" step="0.0001" 
+        />
+        <input 
+          id="q5-grade3" type="number" placeholder="Nota 03" step="0.0001" 
+        />
+        <button id="q5-btn">Calcular</button>
+        <input id="q5-r" type="text" placeholder="Média final" />
+        <p id="q5-f"></p> 
       </form>
     </section>
 
     <section class="q q6">
       <h3>Coringa</h3>
       <form class="form" onsubmit="return false">
-        <input type="number" placeholder="Número 01" />
-        <input type="number" placeholder="Número 02" />
-        <select>
+        <input 
+          id="q6-n1" type="number" placeholder="Número 01" 
+          step="0.0001" 
+        />
+        <input 
+          id="q6-n2" type="number" placeholder="Número 02"
+          step="0.0001" 
+        />
+        <select id="q6-s">
           <option value="0" selected disabled hidden>Código</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
         </select>
         <button id="q6-btn">Calcular</button>
-        <input type="text" placeholder="Resultado" />
-        <p id="q6-f">Feedback</p> 
+        <input id="q6-r" type="text" placeholder="Resultado" />
+        <p id="q6-f"></p> 
       </form>
     </section>
 
